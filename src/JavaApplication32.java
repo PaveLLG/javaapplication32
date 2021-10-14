@@ -8,7 +8,7 @@ public class JavaApplication32 {
 
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(soc.getOutputStream()));
 
-        writer.write("Hello Server!");
+        writer.write("Hello Server!\n");
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(soc.getInputStream()));
         String str = reader.readLine();
